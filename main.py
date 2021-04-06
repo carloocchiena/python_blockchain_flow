@@ -50,7 +50,7 @@ class Blockchain(object):
     
         return hex_hash
     
- blockchain = Blockchain()
+blockchain = Blockchain()
 t1 = blockchain.new_transaction("Alice", "Bob", "1 BTC")
 t2 = blockchain.new_transaction("Vitalik", "Satoshi", "3 BTC")
 t3 = blockchain.new_transaction("Satoshi", "Vitalik", "5 BTC")
