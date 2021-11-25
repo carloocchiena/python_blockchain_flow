@@ -7,7 +7,6 @@ class Blockchain(object):
     def __init__(self):
         self.chain = []
         self.pending_transactions = []
-        
         self.new_block(previous_hash = "Aziona founded 15/02/2021", proof = 100)
         
     def new_block(self, proof, previous_hash=None):
